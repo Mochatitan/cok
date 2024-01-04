@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="workerStyles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- <div class="horizontal-menu">
+        <a href="javascript:balls();">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+        <a href="#">Link 4</a>
+    </div> -->
+    <!-- <div class="vertical-menu">
+        <a href="javascript:selectVerticalMenu(1);" class="active">Link 1</a>
+        <a href="javascript:selectVerticalMenu(2);">Link 2</a>
+        <a href="javascript:selectVerticalMenu(3);">Link 3</a>
+        <a href="javascript:selectVerticalMenu(4);">Link 4</a>
+        onclick="clickCookie()"
+    </div> -->
+    <div class="top-bar"></div>
+
+    <div class="sections">
+        <div class="left-section">
+            <div id="cookies" class="title">
+                0 cookies
+                <div id="cookiesPerSecond">per second: 0</div>
+            </div>
+            
+            <img src="img/PerfectCookie.png" id="cookie" ></img>
+        </div>
+        <div class="middle-section">
+            <img src="img/panelVertical.png" class="wooden-borders-vertical"></img>
+            <img src="img/panelVertical.png" class="wooden-borders-vertical" style="float: right;"></img>
+        </div>
+        <div class="right-section">
+
+            <div class="title" style="text-align:center;margin-top:8px;font-size:35px;">Store</div>
+    
+
+            <div id="upgrades">
+                <!-- <div data-id="0" onclick="Game.UpgradesById[0].click(event);" class="crate upgrade" 
+                                onmouseout="Game.setOnCrate(0);Game.tooltip.shouldHide=1;" 
+                                onmouseover="if (!Game.mouseDown) 
+                                {Game.setOnCrate(this);Game.tooltip.dynamic=1;
+                                Game.tooltip.draw(this,function(){return function(){
+                                    return Game.crateTooltip(Game.UpgradesById[0],'store');}();},
+                                    'store');Game.tooltip.wobble();}" id="upgrade0" 
+                                    style="background-position:0px 0px;"></div> -->
+                <div id="grandma1">hi</div>
+                <div id="grandma2">hi</div>
+                
+                
+                
+            </div>
+
+            <div id="worker-section">
+                <div id="workers-buying">
+                    <div id="buy-sell">
+                        <div class="buy-text">B</div>
+                    </div>
+                    <div id="buyone"></div>
+                    <div id="buytwo"></div>
+                    <div id="buythree"></div>
+                </div>
+                <div id="workers">
+                    <div id="grandma">
+                        
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="game.js" type="module"> </script>
+</html>

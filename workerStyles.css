@@ -1,0 +1,122 @@
+    /* ------------------------------------WORKERS------------------------------------------------- */
+  
+  #worker-section{
+    height:fit-content;
+    width:100%;
+    background:url(img/panelHorizontal.png?v=2) repeat-x top;
+    position: relative;
+    padding-top:16px;
+    overflow-y:hidden;
+    overflow-x: auto;
+  }
+
+  #workers-buying{
+    width:100%;
+    height:35px;
+    /* background-color: rgb(20,20,20); */
+    
+    position:relative;
+    display:flex;
+  }
+  .buy-text{
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #workers-buying div{
+    height:100%;
+  }
+  #workers-buying div#buy-sell{
+    width:20%;
+    background-color: rgb(130,130,130);
+    position:relative;
+    display:flex;
+    text-align: center;
+  }
+  #workers-buying div#buyone{
+    width:20%;
+    background-color: red;
+    position:relative;
+    display:flex;
+    text-align: center;
+  }
+  #workers-buying div#buytwo{
+    width:20%;
+    background-color: blue;
+    position:relative;
+    display:flex;
+    text-align: center;
+  }
+  #workers-buying div#buythree{
+    width:20%;
+    background-color: green;
+    position:relative;
+    display:flex;
+    text-align: center;
+  }
+
+
+  #workers{
+    width:100%;
+    height:auto;
+    display:flex;
+    margin:auto;
+    background-color:rgba(255,0,0,0.2);
+  }
+  #workers div {
+    width:100%;
+    height:50px;
+    background-color:rgb(180,180,180);
+    border: rgb(120,120,120) solid 7px;
+    overflow-y: visible;
+    overflow-x:hidden;
+  }
+  
+  #workers div:hover{
+    background-color: rgba(255,255,255,0.5);
+    
+  }
+
+  #workers div#grandma {
+    
+
+  }
+
+  
+
+
+  /*---------------------------------UPGRADES----------------------------------------------------------- */
+
+  #upgrades{
+     height:fit-content;
+    width:300px;
+    position:relative;
+    overflow-y:hidden;
+    overflow-x: auto;
+    background:url(img/panelHorizontal.png?v=2) repeat-x top;
+    padding-top:16px;
+    }
+  #upgrades div {
+    width:48px;
+    height:48px;
+    margin:6px;
+    display:inline-block;
+    cursor:pointer;
+    /*opacity:0.6;*/
+    position:relative;
+    /*background:#000;*/
+    background:rgba(0,0,0,0.25);
+    float:left;
+    border:none;
+  }
+  
+  #upgrades div:hover{
+    background-color: rgba(255,255,255,0.5)
+  }
+
+  #upgrades div#grandma1{
+
+  }
+  #upgrades div.invisible{
+    width:0%;
+    height:0%;
+  }
